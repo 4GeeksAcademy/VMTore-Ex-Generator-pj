@@ -35,9 +35,8 @@ window.onload = function() {
       action[randomAction] +
       what[randomWhat] +
       when[randomWhen];
+
+    document.querySelector("#excuses").textContent = excuse;
   }
-
-  document.querySelector("#excuses").textContent = excuseGenerator();
+  excuseGenerator();
 };
-
-excuseGenerator();
