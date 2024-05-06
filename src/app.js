@@ -1,10 +1,4 @@
-/* eslint-disable */
-
 window.onload = function() {
-  //write your code here
-
-  //Arrays
-
   const who = ["The dog ", "My grandma ", "The mailman ", "My bird "];
   const action = ["ate ", "peed ", "crushed ", "broke "];
   const what = ["my homework ", "my phone ", "the car "];
@@ -15,8 +9,6 @@ window.onload = function() {
     "during my lunch",
     "while I was praying"
   ];
-
-  //Función
 
   function excuseGenerator() {
     let randomWho = [Math.floor(Math.random() * who.length)];
